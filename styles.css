@@ -1,0 +1,340 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Section */
+.header {
+    background: #f7f9fc;
+    padding: 20px 0;
+    border-bottom: 2px solid #ddd;
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Hero Image */
+.header .hero-image {
+    display: block;
+    max-width: 150px; /* Adjust as needed */
+    height: auto;
+    border-radius: 50%;
+    margin: 0 auto 20px; /* Center align and space out from content */
+}
+
+
+.header h1 {
+    color: #333;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+}
+
+.header ul li {
+    margin-left: 20px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.header .hero-content {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.header .hero-content h2 {
+    font-size: 2.5rem;
+    color: #2b2d42;
+}
+
+.header .hero-content p {
+    font-size: 1.2rem;
+    color: #8d99ae;
+}
+
+.header .cta-btn {
+    padding: 10px 30px;
+    background: #2b2d42;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.header .cta-btn:hover {
+    background: #8d99ae;
+}
+
+/* Skills Section */
+.skills-section {
+    padding: 50px 0;
+    background: #fff;
+    text-align: center;
+}
+
+.skills-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.skill-card {
+    background: #f7f9fc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.skill-card h3 {
+    font-size: 1.5rem;
+    color: #2b2d42;
+}
+
+.skill-card p {
+    color: #8d99ae;
+}
+
+/* Projects Section */
+.projects-section {
+    padding: 50px 0;
+    background: #edf2f4;
+    text-align: center;
+}
+
+.projects-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-card {
+    background: #f7f9fc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    position: relative;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    color: #2b2d42;
+}
+
+.project-card p {
+    color: #8d99ae;
+}
+
+.project-card .cta-btn {
+    padding: 10px 20px;
+    background: #2b2d42;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.project-card .cta-btn:hover {
+    background: #8d99ae;
+}
+
+
+/* Experience Section */
+.experience-section {
+    padding:
+    50px 0;
+    background: #fff;
+    text-align: center;
+}
+
+.experience-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.experience-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.experience-card {
+    background: #f7f9fc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.experience-card h3 {
+    font-size: 1.5rem;
+    color: #2b2d42;
+}
+
+.experience-card p {
+    color: #8d99ae;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 50px 0;
+    background: #edf2f4;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 1.2rem;
+    color: #8d99ae;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contact-icon {
+    width: 30px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 10px;
+}
+
+.contact-item p {
+    font-size: 1.1rem;
+    color: #2b2d42;
+}
+
+.contact-item a {
+    color: #2b2d42;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background: #2b2d42;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #8d99ae;
+}
+
+/* Footer Section */
+.footer {
+    padding: 20px 0;
+    background: #2b2d42;
+    color: #fff;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+/* General Styles for Images */
+.footer img {
+    display: block;
+    max-width: 150px; /* Adjust as needed */
+    height: auto;
+    border-radius: 50%;
+    margin: 0 auto 20px; /* Center align and space out from content */
+}
+
+/* Header Image */
+.header .hero-image {
+    border-radius: 50%; /* Circular shape for profile image */
+}
+
+/* Skill Icons */
+.skill-icon {
+    max-width: 50px; /* Ensures skill icons are not too large */
+    margin: 0 auto 10px; /* Center aligns the icon */
+}
+
+/* Project Images */
+.project-image {
+    border-radius: 10px; /* Matches the border radius of project cards */
+}
+
+/* Experience Logos */
+.experience-logo {
+    max-width: 100px; /* Keeps logos from becoming too large */
+    margin: 0 auto 10px; /* Center aligns the logo */
+}
